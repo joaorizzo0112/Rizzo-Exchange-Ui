@@ -1,4 +1,4 @@
-# joaorizzo0112 | RIZZO Convert 📈
+# joaorizzo0112 | Rizzo Convert 📈
 
 A technical experimentation laboratory focused on high-precision currency conversion, integrating international standards and front-end development best practices. This project was designed to be a useful and educational tool, with a focus on the **ISO 4217** standard and a seamless, inclusive user experience.
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIZZO CONVERT</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/fluency/48/currency-exchange.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-layer">
+        <div class="mesh-grid"></div>
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+    </div>
+
+    <div class="language-picker">
+        <select id="lang-select"></select>
+    </div>
+
+    <main class="app-container">
+        <header class="branding">
+            <h1 id="ui-title">CONVERSOR</h1>
+            <p id="ui-subtitle">TAXAS ISO</p>
+        </header>
+
+        <section class="glass-card">
+            <div class="input-block">
+                <span class="field-label" id="label-from">DE</span>
+                <div class="field-row">
+                    <div class="value-container">
+                        <span class="currency-symbol" id="symbol-one">R$</span>
+                        <input type="number" id="amount" value="1.00" step="0.01">
+                    </div>
+                    <select id="currency-one" class="currency-badge"></select>
+                </div>
+            </div>
+
+            <div class="ui-divider">
+                <div class="line"></div>
+                <button id="swap" class="swap-circle">⇅</button>
+                <div class="line"></div>
+            </div>
+
+            <div class="input-block">
+                <span class="field-label" id="label-to">PARA</span>
+                <div class="field-row">
+                    <div class="value-container">
+                        <span class="currency-symbol" id="symbol-two">$</span>
+                        <div id="result" class="result-text">0,00</div>
+                    </div>
+                    <select id="currency-two" class="currency-badge"></select>
+                </div>
+            </div>
+
+            <div class="rate-box">
+                <span id="rate-display">---</span>
+            </div>
+        </section>
+
+        <footer class="credits">
+            <p id="ui-footer">joaorizzo0112 | Computer Science Student</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
